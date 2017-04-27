@@ -19,7 +19,7 @@
         link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
         document.getElementsByTagName('head')[0].appendChild(link);
     </script>
-<!--[if lt IE 9]>
+    <!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
         <![endif]-->
 </head>
@@ -38,8 +38,7 @@
 
                 </figure>
                 <aside class="notes">
-                    Hi, Thanks for having me today, it's a great honor and a pleasure to be here. My talk is called Engaging Computer Art: What
-                    is found there?
+                    Hi, Thanks for having me today, it's a great honor and a pleasure to be here. My talk is called Engaging Computer Art: What is found there?
                 </aside>
             </section>
 
@@ -49,10 +48,8 @@
             <section>
                 <img src="img/teammedia.jpg">
                 <aside class="notes">
-                    We have a great team at SFMoMA called team media composed of conservation, collections, curatorial, installation and more.
-                    I proposed a code migration of Ruby and through critical dialog and the question was raised why not emulation?
-                    We are working on plan to evaluate both starting soon, and of course we will be working closely with
-                    the artist. Stay tuned!
+                    We have a great team at SFMoMA called team media composed of conservation, collections, curatorial, installation and more. I proposed a code migration of Ruby and through critical dialog and the question was raised why not emulation? We are working on
+                    plan to evaluate both starting soon, and of course we will be working closely with the artist. Stay tuned!
                 </aside>
             </section>
 
@@ -66,8 +63,7 @@
 
                 </figure>
                 <aside class="notes">
-                    I'd like to share some projects I've been working on at SFMoMA. These 3 works that span the collections of Media Art, Architecture
-                    and design.
+                    I'd like to share some projects I've been working on at SFMoMA. These 3 works that span the collections of Media Art, Architecture and design.
                 </aside>
             </section>
 
@@ -76,8 +72,7 @@
                 <img src="img/kare1.png"><br>
                 <p>Susan Kare And Her Macintosh Icons</p>
                 <aside class="notes">
-                    Susan Kare is a prolific influential artist and graphic designer who created many of the interface elements and icons for
-                    the Apple Macintosh in the 1980s. Such as the Happy Mac.
+                    Susan Kare is a prolific influential artist and graphic designer who created many of the interface elements and icons for the Apple Macintosh in the 1980s. Such as the Happy Mac.
                 </aside>
             </section>
             <section>
@@ -133,26 +128,22 @@
             <section>
                 <img src="img/barriers.png"><br>
                 <aside class="notes">
-                    We got super excited about this but also knew that were going to be some barriers to access. 3-1/4 floppies are obsolete
-                    media. The filesystems on these disks might not be readable anymore and we might not have the original
-                    programs they were created with.
+                    We got super excited about this but also knew that were going to be some barriers to access. 3-1/4 floppies are obsolete media. The filesystems on these disks might not be readable anymore and we might not have the original programs they were created
+                    with.
                 </aside>
             </section>
             <section>
                 <img src="img/kyroflux.png"><br>
-                <p class="fragment">KryoFlux is a hardware and software solution for preserving software on floppy disks. It was developed by
-                    the Software Preservation Society.</p>
+                <p class="fragment">KryoFlux is a hardware and software solution for preserving software on floppy disks. It was developed by the Software Preservation Society.</p>
                 <aside class="notes">
-                    KryoFlux is a hardware and software solution for preserving software on floppy disks. It was developed by the Software Preservation
-                    Society. Classic Amiga Preservation Society (CAPS), dedicates itself to the preservation of software
-                    for the future, namely classic games.
+                    KryoFlux is a hardware and software solution for preserving software on floppy disks. It was developed by the Software Preservation Society. Classic Amiga Preservation Society (CAPS), dedicates itself to the preservation of software for the future, namely
+                    classic games.
                 </aside>
             </section>
             <section>
                 <img src="img/kyroflux_software.png" height="500"><br>
                 <aside class="notes">
-                    This is the kryoflux software interface for reading the disks. It helps detect read errors, corruption and failitated makind
-                    an image of the disk
+                    This is the kryoflux software interface for reading the disks. It helps detect read errors, corruption and failitated makind an image of the disk
                 </aside>
             </section>
             <section>
@@ -170,16 +161,14 @@
             <section>
                 <img src="img/photoshop.png" height="500"><br>
                 <aside class="notes">
-                    At first we assumed that these disks were corrupt. But my colleague at MoMA, Ben Fino Radin tried opening them in MinivMAC
-                    a macintosh 128k emulator and they opened! It turns out they were formatted in the MFS file system which
-                    Apple dropped support for in OS8
+                    At first we assumed that these disks were corrupt. But my colleague at MoMA, Ben Fino Radin tried opening them in MinivMAC a macintosh 128k emulator and they opened! It turns out they were formatted in the MFS file system which Apple dropped support for
+                    in OS8
                 </aside>
             </section>
             <section>
                 <img src="img/studio81.png" height="500"><br>
                 <aside class="notes">
-                    Next we found that a number of the files were created ina a program called Studio8 by Electronic Arts. We scoured the web
-                    looking for the software but only found this reference in an old computer magazine.
+                    Next we found that a number of the files were created ina a program called Studio8 by Electronic Arts. We scoured the web looking for the software but only found this reference in an old computer magazine.
                 </aside>
             </section>
             <section>
@@ -209,12 +198,9 @@
             <section>
                 <img src="img/browser2.png" height="500"><br>
                 <aside class="notes">
-                    So at this point we had tackled a number of barriers. The question now was how to give easy access to the curators in a standardized
-                    way across institutions. So we built a linux based server together that ran the emulator in a web-browser.
-                    Each institution worked with IT to deploy this server on their local network. The curators simply had
-                    to go to a url, login and load the files in photoshop 1. We did write a manual on the basics of photoshop
-                    1. We also had a standard numbering system for the disk images indexed in a spreadsheet so that notes
-                    could be compared across institutions.
+                    So at this point we had tackled a number of barriers. The question now was how to give easy access to the curators in a standardized way across institutions. So we built a linux based server together that ran the emulator in a web-browser. Each institution
+                    worked with IT to deploy this server on their local network. The curators simply had to go to a url, login and load the files in photoshop 1. We did write a manual on the basics of photoshop 1. We also had a standard numbering system
+                    for the disk images indexed in a spreadsheet so that notes could be compared across institutions.
                 </aside>
             </section>
             <section>
@@ -226,35 +212,26 @@
             <section>
                 <img src="img/ad1.png" height="600"><br>
                 <aside class="notes">
-                    Some of the topics that arise here are the modalities of display. In this session we considered among many things on how
-                    the icons should be presented. There is an original Mac 128k that is an exhibtion copy and an emulator
-                    running on a Raspberry Pi for example
+                    Some of the topics that arise here are the modalities of display. In this session we considered among many things on how the icons should be presented. There is an original Mac 128k that is an exhibtion copy and an emulator running on a Raspberry Pi for
+                    example
                 </aside>
             </section>
-
-
-            <!-- 
-                <section>
-                <ul>
-                <li>Proposed Work</li>
-                <li class="fragment">We will work on a migration to a canvas interface and newer AIML interpreter using the original AIML</li>
-                <li class="fragment">In parallel we will do a web based emulation of the original system</li>
-                <li class="fragment">The work will de done with the close examination and critical discussion with SFMoMA's Team Media and of course with the artist herself.</li>
-                </ul>
-                </section> -->
+            <section>
+                <img src="img/kare1.png"><br>
+                <p>Emigre Magazine</p>
+                <aside class="notes">
+                    Susan Kare is a prolific influential artist and graphic designer who created many of the interface elements and icons for the Apple Macintosh in the 1980s. Such as the Happy Mac.
+                </aside>
+            </section>
 
             <section>
                 <img src="img/rv_schem.jpg" height="500"><br>
                 <p>Greg Lynn, Scale model for RV Prototype 2012</p>
                 <aside class="notes">
-                    GREG LYNN was an innovator in redefining the medium of design with digital technology as well as pioneering the fabrication
-                    and manufacture of complex functional and ergonomic forms using CNC machinery. The buildings, projects,
-                    publications, teachings and writings associated with his office have been influential in the acceptance
-                    and use of advanced materials and technologies for design and fabrication.<br><br>                    For Biennale Interieur 2012 he created a prototype for a motorised compact-living cocoon that rotates
-                    to provide space for relaxing, sleeping and bathing <br><br> This brings a new layer of enthusiasm and
-                    activity to the typical home, similar to that of an exercise machine or hamster ball. the living environment
-                    responds to its surrounding landscape so that it is optimized to the weather, daylight and temperature
-                    through its rotational actions. taking influence from the inner hull of a boat, the bespoke dwelling
+                    GREG LYNN was an innovator in redefining the medium of design with digital technology as well as pioneering the fabrication and manufacture of complex functional and ergonomic forms using CNC machinery. The buildings, projects, publications, teachings
+                    and writings associated with his office have been influential in the acceptance and use of advanced materials and technologies for design and fabrication.<br><br> For Biennale Interieur 2012 he created a prototype
+                    for a motorised compact-living cocoon that rotates to provide space for relaxing, sleeping and bathing <br><br> This brings a new layer of enthusiasm and activity to the typical home, similar to that of an exercise machine or hamster
+                    ball. the living environment responds to its surrounding landscape so that it is optimized to the weather, daylight and temperature through its rotational actions. taking influence from the inner hull of a boat, the bespoke dwelling
                     proposes a new typology which was once sedentary, into one based on movement and interaction.
                 </aside>
             </section>
@@ -263,50 +240,34 @@
                     <source src="img/rvvideo.mp4" type="video/mp4">
                 </video>
                 <aside class="notes">
-                    RV Prototype House is a 1/5th scale model of a house that increases living space by rotating in two axes on a robotic base.
-                    In addition to a floor in one orientation, one wall and the ceiling surface can be rotated as new floors.
-                    150m of living surface is realized within a 60m footprint. Made of a lightweight cored carbon fiber fabric
-                    the entire shell weighs less than 50 kilos allowing it to rotate freely.
+                    RV Prototype House is a 1/5th scale model of a house that increases living space by rotating in two axes on a robotic base. In addition to a floor in one orientation, one wall and the ceiling surface can be rotated as new floors. 150m of living surface
+                    is realized within a 60m footprint. Made of a lightweight cored carbon fiber fabric the entire shell weighs less than 50 kilos allowing it to rotate freely.
                 </aside>
             </section>
             <section>
                 <img src="img/RV_Prototype_12.jpg" height="600"><br>
                 <aside class="notes">
-                    The RV prototype came as a 1/5 scale model and a 1/20 scale model. The clip we just watched was the 1/5 scale model and this
-                    is an image of the 1/20 scale model which was acquired by SFMoMA in 2015.<br><br>The
-                    work had been on display through Oct, Additionally a potential upcoming loan requst was made. As we had
-                    a period after de-installation to spend time with it SFMoMA's media conservator Martina Haidvogl coordinated
-                    an extensive documentation session with Sean Boyd from Lynn's studio and myself to document it's electronic
-                    and mechanical operation.
+                    The RV prototype came as a 1/5 scale model and a 1/20 scale model. The clip we just watched was the 1/5 scale model and this is an image of the 1/20 scale model which was acquired by SFMoMA in 2015.<br><br>The work had been on display
+                    through Oct, Additionally a potential upcoming loan requst was made. As we had a period after de-installation to spend time with it SFMoMA's media conservator Martina Haidvogl coordinated an extensive documentation session with Sean
+                    Boyd from Lynn's studio and myself to document it's electronic and mechanical operation.
                 </aside>
             </section>
             <section>
                 <img src="img/RV_Prototype_10.jpg" height="600"><br>
                 <aside class="notes">
-                    The shell was constructed of a carbon fiber shell that had been cast in a CNC'd mold. In the interior was furniture that
-                    was 3d-printed and was gimballed so that it was always in balance with the rotation of the house.
+                    The shell was constructed of a carbon fiber shell that had been cast in a CNC'd mold. In the interior was furniture that was 3d-printed and was gimballed so that it was always in balance with the rotation of the house.
                 </aside>
             </section>
             <section>
                 <img src="img/RV_Prototype_2-.jpeg" height="600"><br>
                 <aside class="notes">
-                    The shell sits on top of a fiberglass base that contains gearing, timing belts and 2 NEMA 23 stepper motors tht control the
-                    pan and tilt.
-                </aside>
-            </section>
-            <section>
-                <img src="img/stepper_gif.gif" height="600"><br>
-                <aside class="notes">
-                    Stepper motors are DC motors that move in discrete steps. They have multiple coils that are organized in groups called "phases".
-                    By energizing each phase in sequence, the motor will rotate, one step at a time. With a computer controlled
-                    stepping you can achieve very precise positioning and/or speed control.
+                    The shell sits on top of a fiberglass base that contains gearing, timing belts and 2 NEMA 23 stepper motors tht control the pan and tilt.
                 </aside>
             </section>
             <section>
                 <img src="img/ST5-Q-EN_1.png" height="600"><br>
                 <aside class="notes">
-                    This is the stepper driver an ST5-Q-EN, there were 2 of these one for each motor. It has a cpu, network connectivity and
-                    memory to store 744 commands along with a lot of other functionality.
+                    This is the stepper driver an ST5-Q-EN, there were 2 of these one for each motor. It has a cpu, network connectivity and memory to store 744 commands along with a lot of other functionality.
                 </aside>
             </section>
             <section>
@@ -331,165 +292,173 @@ WT	3.00 // Wait for 3 seconds.
 QG #LABEL1 // Queue Goto, loops the sequence from LABEL1.
                 </pre>
                 <aside class="notes">
-                    There are number of demo programs loaded onto the controllers here is ond of the basic tilt programs written by Lynn's studio
-                    which was commented by conservator Martina Haidvogl.
+                    There are number of demo programs loaded onto the controllers here is ond of the basic tilt programs written by Lynn's studio which was commented by conservator Martina Haidvogl.
                 </aside>
             </section>
             <section>
                 <img src="img/osc.png" height="400"><br>
                 <aside class="notes">
-                    In addition a tablet app was developed using an application called TouchOSC which allows for manual control over a wireless
-                    network at the table has no ethernet. It can also put send the back into demo mode.
+                    In addition a tablet app was developed using an application called TouchOSC which allows for manual control over a wireless network at the table has no ethernet. It can also put send the back into demo mode.
                 </aside>
             </section>
             <section>
                 <img src="img/osc.jpg" height="400"><br>
                 <aside class="notes">
-                    OSC stands for Open Sound Control, It was developed and the Center for New Music and Technology at U.C. Berkeley. It is a
-                    fast networked data protocol and it was wonderful to see it used here. The tablet app would send OSC
-                    data to a client written in an language called python on a laptop included with the work which wouls
-                    the pass the command onto the stepper motor driversIt's also interesting me to consider the documentation
-                    of the protocols of that are used in these systems in addition to the code and components because it
-                    is how the system communicates.
+                    OSC stands for Open Sound Control, It was developed and the Center for New Music and Technology at U.C. Berkeley. It is a fast networked data protocol and it was wonderful to see it used here. The tablet app would send OSC data to a client written in
+                    an language called python on a laptop included with the work which wouls the pass the command onto the stepper motor driversIt's also interesting me to consider the documentation of the protocols of that are used in these systems in
+                    addition to the code and components because it is how the system communicates.
                 </aside>
             </section>
-            <h1 id="name"></h1>
-            <h1 id="val"></h1>
             <section>
-                <section>
-                    <img src="img/ruby.png">
-                    <p>Lynn Hershman Leeson, Agent Ruby 1999</p>
-                    <aside class="notes">
-                        The first is Agent Ruby by Lynn Hershman Leeson, which I've been working on since 2009, In 2001–2 SFMOMA commissioned Agent
-                        Ruby (agentruby.sfmoma.org) by acclaimed San Francisco artist Lynn Hershman Leeson for its pioneering
-                        online platform e.space.An artificial intelligent web avatar that is shaped by and reflective of
-                        encounters and adventures that it has with users.<br>
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/teknolust.png">
-                    <aside class="notes">
-                        Agent Ruby was conceived as an “e-dream portal,” a new experience in expanded cinema originating from the character Ruby
-                        (played by Tilda Swinton) in Hershman Leeson’s 2002 feature film Teknolust.
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/ruby_tech.png" height="600"><br>
-                    <p>Ruby technical diagram</p>
-                    <aside class="notes">
-                        I wasked asked by the museum to help with conservation and care efforts for Ruby and we began with process of documentation.In
-                        documenting ruby we found a complex system of components communicating with each other. There were
-                        two servers running one that served the public facing interface, and another that facilitated the
-                        dialog between the user and an AI interpreter.
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/ruby_interface.png" height="650">
-                    <aside class="notes">
-                        There was the public facing interface, that was created in Macromedia flash at the time(now Adobe)
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/aiml.png">
-                    <aside class="notes">
-                        And the there was the brain or personality which consisted of over 22,000 entries written Artifical Intelligence Markup Language
-                        or AIML
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/aimltree.png">
-                    <aside class="notes">
-                        The XML dialect called AIML was developed by Dr Richard Wallace and a worldwide free software community. AIML formed the
-                        basis for what was a bot called "A.L.I.C.E.." ("Artificial Linguistic Internet Computer Entity"),
-                        which won the annual Loebner Prize Competition in Artificial Intelligence three times. It was in
-                        this language that you could craft an AI bot in and that is what rubys personality was created in.
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/progd.png">
-                    <aside class="notes">
-                        In addition to a set of AIML a program to interpret it was needed. In Ruby case is was a program called Program D. This program
-                        took the users input matched againsta patterns in the AIML and returned a response.
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/virtual.png"><br>
-                    <aside class="notes">
-                        And there was also the the orginal hardware(the biege PC on the left) which had been running continously on the internet
-                        for 8 or so years. And so in 2009 after documenting the work. The hardware was identified as one
-                        of the biggest risks of failure. So our focus at that time was to migrate the software to a system
-                        known as as a virtual server.
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/interface2.png"><img src="img/3d_model.png">
-                    <aside class="notes">
-                        During that process we found some intersting artifacts such as an alternate interface which more resembled the one in the
-                        film teknolust. Also there was 3d model and snippet of unused code that hinted at a animated 3d avatar,
-                        which can be seen in some of Lynn's later works like DiNA
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/archive.png">
-                    <aside class="notes">
-                        And there there was the 8 gigabyte log file of all the converstations that Ruby had ever had with visitors. While these components
-                        were excited they were not considered essentail to the artwork at the time.
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/informing.png">
-                    <aside class="notes">
-                        So Ruby beacame stabilized, we successfully migrated the software away from the aging hardware secured the server and whe
-                        was running fine.We even presented the work here at the DOCAM summit in 2010. And then in 2013 Rudolf
-                        Frieling curator of Media arts at SFMoMA wanted to display Ruby. He was quite interested in the log
-                        files and wanted me to print them out.
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/informing2.png" height="300">
-                    <aside class="notes">
-                        "That's like 8 truckloads of paper I said, I don't know if that is going to fly in ecological San Francisco. So we ended
-                        up writing python scripts to mine conversations based on topics designeted by the curator like 'science
-                        fiction and feminism. It was then shown as the Agent Ruby files in 2013. It has been shown this way
-                        ever since including at Lynn's Retrospective at ZKM in 2014"
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/flash.png" height="600"><br>
-                    <aside class="notes">
-                        In 2009 we also called out vulnerabilities in Java and Flash
-                    </aside>
-                </section>
-
-                <section>
-                    <img src="img/chrome_flash.jpg"><br>
-                    <p>This December, Chrome 55 will make HTML5 the default experience, except for sites which only support
-                        Flash. For those, you’ll be prompted to enable Flash
-                        <aside class="notes">
-                            Google annouced it will start phasing
-                        </aside>when you first visit the site.</p>
-                </section>
-
-                <section>
-                    <img src="img/lynn.png" height="320"><img src="img/civic_radar.png" height="320">
-                    <aside class="notes">
-                        A little earlier
-                    </aside>
-                </section>
-
+                <p>Teiji Furuhashi: Lovers</p>
+                <img src="img/lovers1.jpeg">
+                <aside class="notes">
+                    Lovers is an immersive, room-sized multimedia installation by Japanese artist Teiji Furuhashi (1960–1995). Life-sized images of the artist and other fellow members of the Kyoto-based artist collective Dumb Type are projected onto the walls of a darkened
+                    room from a tower of computer-controlled video and slide projectors at its center. The figures move like specters around the perimeter of the space, in a looped choreographic sequence made variable by a visitor-activated motion sensor,
+                    which intervenes to restart one of the projections when triggered. Confined to their autonomous projections, these eponymous “lovers” overlap at moments within the sequence, whether running past each other or pausing in a gesture of
+                    embrace, yet their bodies never make contact. Made just one year before Furuhashi’s death from AIDS-related illness, Lovers speaks to what the artist has described as “the theme of contemporary love in an ultra-romantic way.” Presented
+                    for the first time since its inaugural exhibition at MoMA in 1995, the installation showcases the results of an extensive conservation effort recently completed by the Museum’s media conservators.
+                </aside>
             </section>
+            <section>
+                <img src="img/label.jpeg"><br>
+            </section>
+            <section>
+                <img src="img/lovers2.jpg"><br>
+            </section>
+            <section>
+                <img src="img/cables.jpeg"><br>
+            </section>
+            <section>
+                <img src="img/mark1.jpeg" height="600"><br>
+            </section>
+            <section>
+                <img src="img/saelae1.jpg" height="600"><br>
+            </section>
+            <section>
+                <img src="img/saelae2.jpg" height="600"><br>
+            </section>
+            <section>
+                <img src="img/saelae.png" height="600"><br>
+            </section>
+
+
+            <section>
+                <img src="img/ruby.png">
+                <p>Lynn Hershman Leeson, Agent Ruby 1999</p>
+                <aside class="notes">
+                    The first is Agent Ruby by Lynn Hershman Leeson, which I've been working on since 2009, In 2001–2 SFMOMA commissioned Agent Ruby (agentruby.sfmoma.org) by acclaimed San Francisco artist Lynn Hershman Leeson for its pioneering online platform e.space.An
+                    artificial intelligent web avatar that is shaped by and reflective of encounters and adventures that it has with users.<br>
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/teknolust.png">
+                <aside class="notes">
+                    Agent Ruby was conceived as an “e-dream portal,” a new experience in expanded cinema originating from the character Ruby (played by Tilda Swinton) in Hershman Leeson’s 2002 feature film Teknolust.
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/ruby_tech.png" height="600"><br>
+                <p>Ruby technical diagram</p>
+                <aside class="notes">
+                    I wasked asked by the museum to help with conservation and care efforts for Ruby and we began with process of documentation.In documenting ruby we found a complex system of components communicating with each other. There were two servers running one that
+                    served the public facing interface, and another that facilitated the dialog between the user and an AI interpreter.
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/ruby_interface.png" height="650">
+                <aside class="notes">
+                    There was the public facing interface, that was created in Macromedia flash at the time(now Adobe)
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/aiml.png">
+                <aside class="notes">
+                    And the there was the brain or personality which consisted of over 22,000 entries written Artifical Intelligence Markup Language or AIML
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/aimltree.png">
+                <aside class="notes">
+                    The XML dialect called AIML was developed by Dr Richard Wallace and a worldwide free software community. AIML formed the basis for what was a bot called "A.L.I.C.E.." ("Artificial Linguistic Internet Computer Entity"), which won the annual Loebner Prize
+                    Competition in Artificial Intelligence three times. It was in this language that you could craft an AI bot in and that is what rubys personality was created in.
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/progd.png">
+                <aside class="notes">
+                    In addition to a set of AIML a program to interpret it was needed. In Ruby case is was a program called Program D. This program took the users input matched againsta patterns in the AIML and returned a response.
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/virtual.png"><br>
+                <aside class="notes">
+                    And there was also the the orginal hardware(the biege PC on the left) which had been running continously on the internet for 8 or so years. And so in 2009 after documenting the work. The hardware was identified as one of the biggest risks of failure.
+                    So our focus at that time was to migrate the software to a system known as as a virtual server.
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/interface2.png"><img src="img/3d_model.png">
+                <aside class="notes">
+                    During that process we found some intersting artifacts such as an alternate interface which more resembled the one in the film teknolust. Also there was 3d model and snippet of unused code that hinted at a animated 3d avatar, which can be seen in some
+                    of Lynn's later works like DiNA
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/archive.png">
+                <aside class="notes">
+                    And there there was the 8 gigabyte log file of all the converstations that Ruby had ever had with visitors. While these components were excited they were not considered essentail to the artwork at the time.
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/informing.png">
+                <aside class="notes">
+                    So Ruby beacame stabilized, we successfully migrated the software away from the aging hardware secured the server and whe was running fine.We even presented the work here at the DOCAM summit in 2010. And then in 2013 Rudolf Frieling curator of Media arts
+                    at SFMoMA wanted to display Ruby. He was quite interested in the log files and wanted me to print them out.
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/informing2.png" height="300">
+                <aside class="notes">
+                    "That's like 8 truckloads of paper I said, I don't know if that is going to fly in ecological San Francisco. So we ended up writing python scripts to mine conversations based on topics designeted by the curator like 'science fiction and feminism. It was
+                    then shown as the Agent Ruby files in 2013. It has been shown this way ever since including at Lynn's Retrospective at ZKM in 2014"
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/flash.png" height="600"><br>
+                <aside class="notes">
+                    In 2009 we also called out vulnerabilities in Java and Flash
+                </aside>
+            </section>
+
+            <section>
+                <img src="img/chrome_flash.jpg"><br>
+                <p>This December, Chrome 55 will make HTML5 the default experience, except for sites which only support Flash. For those, you’ll be prompted to enable Flash
+                    <aside class="notes">
+                        Google annouced it will start phasing
+                    </aside>when you first visit the site.</p>
+            </section>
+
+            <section>
+                <img src="img/lynn.png" height="320"><img src="img/civic_radar.png" height="320">
+                <aside class="notes">
+                    A little earlier
+                </aside>
+            </section>
+
+
 
             <section>
                 <figure>
@@ -503,8 +472,7 @@ QG #LABEL1 // Queue Goto, loops the sequence from LABEL1.
 
             </section>
             <section>
-                <iframe src="https://player.vimeo.com/video/190339204" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen
-                    allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/190339204" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 <p><a href="https://vimeo.com/190339204">Muni Transit Board</a>
             </section>
 
@@ -517,16 +485,16 @@ QG #LABEL1 // Queue Goto, loops the sequence from LABEL1.
                 <a href="https://speakers.academyart.edu/content/guest-speakers/web-design---new-media/mirror-face.html">Mirror Face</a>
             </section>
 
-                <section>
-                    <figure>
-                        <h2 class="intro">Thank You!</h2 class="intro">
-                        <h2 class="intro">Thank You!</h2 class="intro">
-                        <h2 class="intro">Thank You!</h2 class="intro">
-                        <h2 class="intro">Thank You!</h2 class="intro">
-                        <h2 class="intro">Thank You!</h2 class="intro">
-                    </figure>
+            <section>
+                <figure>
+                    <h2 class="intro">Thank You!</h2 class="intro">
+                    <h2 class="intro">Thank You!</h2 class="intro">
+                    <h2 class="intro">Thank You!</h2 class="intro">
+                    <h2 class="intro">Thank You!</h2 class="intro">
+                    <h2 class="intro">Thank You!</h2 class="intro">
+                </figure>
 
-                </section>
+            </section>
 
 
         </div>
@@ -537,26 +505,25 @@ QG #LABEL1 // Queue Goto, loops the sequence from LABEL1.
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 
     <script>
-
         function map_range(value, low1, high1, low2, high2) {
             return low2 + (high2 - low2) * (value - low1) / (high1 - low1);
         }
 
         var socket = io.connect('//localhost:3000');
-        socket.on('data', function (data) {
+        socket.on('data', function(data) {
             console.log(data);
             $('#name').text(data.val[0]);
             $('#val').text(data.val[1]);
             $('#mapped').text(map_range(data.val[1], 0, 1, 0, 255));
         });
-        socket.on('error', function () {
+        socket.on('error', function() {
             console.error(arguments)
         });
     </script>
 
 
 
-<script>
+    <script>
         // Full list of configuration options available at:
         // https://github.com/hakimel/reveal.js#configuration
         Reveal.initialize({
@@ -570,26 +537,26 @@ QG #LABEL1 // Queue Goto, loops the sequence from LABEL1.
             // Optional reveal.js plugins
             dependencies: [{
                 src: 'lib/js/classList.js',
-                condition: function () {
+                condition: function() {
                     return !document.body.classList;
                 }
             }, {
                 src: 'plugin/markdown/marked.js',
-                condition: function () {
+                condition: function() {
                     return !!document.querySelector('[data-markdown]');
                 }
             }, {
                 src: 'plugin/markdown/markdown.js',
-                condition: function () {
+                condition: function() {
                     return !!document.querySelector('[data-markdown]');
                 }
             }, {
                 src: 'plugin/highlight/highlight.js',
                 async: true,
-                condition: function () {
+                condition: function() {
                     return !!document.querySelector('pre code');
                 },
-                callback: function () {
+                callback: function() {
                     hljs.initHighlightingOnLoad();
                 }
             }, {
@@ -600,7 +567,7 @@ QG #LABEL1 // Queue Goto, loops the sequence from LABEL1.
                 async: true
             }]
         });
-</script>
+    </script>
 
 </body>
 
